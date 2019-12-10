@@ -1,0 +1,34 @@
+li {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: .5rem 1rem;
+  margin: .5rem;
+  display: flex;
+  justify-content: space-between;
+}
+input{margin-right: 1rem;}
+small{ right: 40px; bottom: 5px; font-size: .8rem;}
+.rm{
+  background: #771919;
+  color: #fff;
+  border-radius: 100%;
+  border: 1px solid #771919;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: bold;
+  
+}
+input[type="checkbox"]:checked+span   {
+  text-decoration: line-through  ;
+}
+.spText{
+  
+  cursor: pointer;
+}
+
+.filter{
+  margin: 0 auto;
+  width: 600px;
+}
+
+.filter input{ width: 100%; padding: 5px; border-radius: 5px; border: 1px solid #ccc;}
